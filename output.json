@@ -1,0 +1,278 @@
+[
+    {
+        "name": "Electric Blue Coffee Maker",
+        "product_id": "p101",
+        "quantityAvailable": "24",
+        "price": "3.74",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Retro Style Alarm Clock",
+        "product_id": "p102",
+        "quantityAvailable": "12",
+        "price": "9.1",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Stainless Steel Water Bottle",
+        "product_id": "p103",
+        "quantityAvailable": "34",
+        "price": "1.66",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Bamboo Cutting Board Set",
+        "product_id": "p104",
+        "quantityAvailable": "12",
+        "price": "2.94",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Aromatherapy Essential Oil Diffuser",
+        "product_id": "p105",
+        "quantityAvailable": "10",
+        "price": "9.12",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Portable Bluetooth Speaker",
+        "product_id": "p106",
+        "quantityAvailable": "27",
+        "price": "6.99",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Reusable Silicone Food Storage Bags",
+        "product_id": "p107",
+        "quantityAvailable": "57",
+        "price": "6.4",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Handcrafted Ceramic Mug",
+        "product_id": "p108",
+        "quantityAvailable": "13",
+        "price": "9.89",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Foldable Laptop Stand",
+        "product_id": "p109",
+        "quantityAvailable": "44",
+        "price": "8.65",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Organic Cotton Bath Towel Set",
+        "product_id": "p110",
+        "quantityAvailable": "24",
+        "price": "3.28",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Miniature Succulent Plant Collection",
+        "product_id": "p111",
+        "quantityAvailable": "54",
+        "price": "7.46",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Eco-Friendly Bamboo Toothbrush Set",
+        "product_id": "p112",
+        "quantityAvailable": "11",
+        "price": "3.45",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Himalayan Salt Lamp",
+        "product_id": "p113",
+        "quantityAvailable": "17",
+        "price": "9.17",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Leather Journal Notebook",
+        "product_id": "p114",
+        "quantityAvailable": "32",
+        "price": "6.94",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Stainless Steel Cocktail Shaker Set",
+        "product_id": "p115",
+        "quantityAvailable": "52",
+        "price": "8.59",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Vintage Style Desk Lamp",
+        "product_id": "p116",
+        "quantityAvailable": "35",
+        "price": "7.28",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Vintage Style Desk Lamp",
+        "product_id": "p117",
+        "quantityAvailable": "10",
+        "price": "6.01",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Glass Tea Infuser Bottle",
+        "product_id": "p118",
+        "quantityAvailable": "9",
+        "price": "4.28",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Glass Tea Infuser Bottle",
+        "product_id": "p119",
+        "quantityAvailable": "32",
+        "price": "32.1",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    },
+    {
+        "name": "Silicone Baking Mat Set",
+        "product_id": "p120",
+        "quantityAvailable": "44",
+        "price": "70",
+        "imageLink": "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    }
+]
+
+// const data = [  
+    // {
+    //     id: "p102",
+    //     name: "Retro Style Alarm Clock",
+    //     price: 9.1,
+    //     quantityAvailable: 12,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p103",
+    //     name: "Stainless Steel Water Bottle",
+    //     price: 1.66,
+    //     quantityAvailable: 34,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p104",
+    //     name: "Bamboo Cutting Board Set",
+    //     price: 2.94,
+    //     quantityAvailable: 12,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p105",
+    //     name: "Aromatherapy Essential Oil Diffuser",
+    //     price: 9.12,
+    //     quantityAvailable: 10,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p106",
+    //     name: "Portable Bluetooth Speaker",
+    //     price: 6.99,
+    //     quantityAvailable: 27,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p107",
+    //     name: "Reusable Silicone Food Storage Bags",
+    //     price: 6.4,
+    //     quantityAvailable: 57,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p108",
+    //     name: "Handcrafted Ceramic Mug",
+    //     price: 9.89,
+    //     quantityAvailable: 13,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p109",
+    //     name: "Foldable Laptop Stand",
+    //     price: 8.65,
+    //     quantityAvailable: 44,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p110",
+    //     name: "Organic Cotton Bath Towel Set",
+    //     price: 3.28,
+    //     quantityAvailable: 24,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p111",
+    //     name: "Miniature Succulent Plant Collection",
+    //     price: 7.46,
+    //     quantityAvailable: 54,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p112",
+    //     name: "Eco-Friendly Bamboo Toothbrush Set",
+    //     price: 3.45,
+    //     quantityAvailable: 11,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p113",
+    //     name: "Himalayan Salt Lamp",
+    //     price: 9.17,
+    //     quantityAvailable: 17,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p114",
+    //     name: "Leather Journal Notebook",
+    //     price: 6.94,
+    //     quantityAvailable: 32,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p115",
+    //     name: "Stainless Steel Cocktail Shaker Set",
+    //     price: 8.59,
+    //     quantityAvailable: 52,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p116",
+    //     name: "Vintage Style Desk Lamp",
+    //     price: 7.28,
+    //     quantityAvailable: 35,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // }
+    // {
+    //     id: "p117",
+    //     name: "versace Style bed Lamp",
+    //     price: 6.01,
+    //     quantityAvailable: 10,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p118",
+    //     name: "Glass Tea Infuser Bottle",
+    //     price: 4.28,
+    //     quantityAvailable: 9,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p119",
+    //     name: "plastic Tea Infuser Bottle",
+    //     price: 32.1,
+    //     quantityAvailable: 32,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // },
+    // {
+    //     id: "p120",
+    //     name: "Silicone Baking Mat Set",
+    //     price: 70,
+    //     quantityAvailable: 44,
+    //     imageLink: "https://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpghttps://shoponclick.ng/wp-content/uploads/2020/06/McVities-Digestive-Wheat-Biscuit-100g-100x100.jpg"
+    // }
+    // ]

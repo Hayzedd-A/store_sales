@@ -1,0 +1,15 @@
+img {
+  width: 40px;
+}
+
+.template td span {
+  display: inline-block;
+  width: 50%;
+  background-color: rgb(229, 217, 217);
+  box-sizing: border-box;
+  margin: 8px;
+  height: 20px;
+}
+.template td span.icon {
+  height: 40px;
+}

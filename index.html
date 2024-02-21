@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/styles/style.css" />
+    <title>Products</title>
+  </head>
+  <body>
+    <div class="makeSale container">
+      <nav>
+        <div class="name_logo">
+          <div class="logo">
+            <?xml version="1.0" ?><svg
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title />
+              <g data-name="1" id="_1">
+                <path
+                  d="M397.78,316H192.65A15,15,0,0,1,178,304.33L143.46,153.85a15,15,0,0,1,14.62-18.36H432.35A15,15,0,0,1,447,153.85L412.4,304.33A15,15,0,0,1,397.78,316ZM204.59,286H385.84l27.67-120.48H176.91Z"
+                />
+                <path
+                  d="M222,450a57.48,57.48,0,1,1,57.48-57.48A57.54,57.54,0,0,1,222,450Zm0-84.95a27.48,27.48,0,1,0,27.48,27.47A27.5,27.5,0,0,0,222,365.05Z"
+                />
+                <path
+                  d="M368.42,450a57.48,57.48,0,1,1,57.48-57.48A57.54,57.54,0,0,1,368.42,450Zm0-84.95a27.48,27.48,0,1,0,27.48,27.47A27.5,27.5,0,0,0,368.42,365.05Z"
+                />
+                <path
+                  d="M158.08,165.49a15,15,0,0,1-14.23-10.26L118.14,78H70.7a15,15,0,1,1,0-30H129a15,15,0,0,1,14.23,10.26l29.13,87.49a15,15,0,0,1-14.23,19.74Z"
+                />
+              </g>
+            </svg>
+          </div>
+          <div class="name">Store_name</div>
+        </div>
+        <div class="links">
+          <ul>
+            <li>Sell</li>
+            <li><a href="static/allProduct.html">All products</a></li>
+            <li>History</li>
+            <li>Account</li>
+            <li>Log out</li>
+          </ul>
+        </div>
+      </nav>
+      <section class="header">
+        <div class="search">
+          <input
+            type="text"
+            id="search"
+            placeholder="Enter at least 3 letters of the product name"
+          />
+          <span class="icon"
+            ><?xml version="1.0" ?><!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+            <svg
+              id="Layer_1"
+              style="enable-background: new 0 0 512 512"
+              version="1.1"
+              viewBox="0 0 512 512"
+              width="512px"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <path
+                d="M448.3,424.7L335,311.3c20.8-26,33.3-59.1,33.3-95.1c0-84.1-68.1-152.2-152-152.2c-84,0-152,68.2-152,152.2  s68.1,152.2,152,152.2c36.2,0,69.4-12.7,95.5-33.8L425,448L448.3,424.7z M120.1,312.6c-25.7-25.7-39.8-59.9-39.8-96.3  s14.2-70.6,39.8-96.3S180,80,216.3,80c36.3,0,70.5,14.2,96.2,39.9s39.8,59.9,39.8,96.3s-14.2,70.6-39.8,96.3  c-25.7,25.7-59.9,39.9-96.2,39.9C180,352.5,145.8,338.3,120.1,312.6z"
+              ></path>
+              />
+            </svg></span
+          >
+        </div>
+        <label for="sort"
+          >Sort
+          <select name="sort" id="sort">
+            <option value="name">Name</option>
+            <option value="name">Price</option>
+            <option value="name">Sales</option>
+            <option value="name">newest</option>
+          </select>
+          <input type="checkbox" value="Desc" />
+        </label>
+        <label for="categories"
+          >Categories
+          <select name="categories" id="categories">
+            <option value="all">All</option>
+            <option value="groceries">Groceries</option>
+            <option value="electronics">Electronics</option>
+            <option value="fashion">Fashion</option>
+            <option value="home & beauty">Home & Beauty</option>
+            <option value="kitchen appliances">Kitchen appliances</option>
+          </select>
+        </label>
+      </section>
+      <section class="productList sales"></section>
+    </div>
+    <div class="checkout container">
+      <section class="productList checkingOut">
+        <table>
+          <thead>
+            <tr>
+              <td>Item name</td>
+              <td>Quantity</td>
+              <td>Price</td>
+              <td>Amount</td>
+              <td>Action</td>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+      <section class="payment">
+        <div id="checkoutTotal" class="naira">0.00</div>
+        <button class="btn-unstyled" id="checkout">Checkout</button>
+      </section>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Checkout Successful
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Purchase Details</h4>
+            <table>
+              <thead>
+                <tr>
+                  <td>Item</td>
+                  <td>Quantity</td>
+                  <td>Amount</td>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+            <hr />
+            <div class="modalTotalAmount">
+              Total amount payed
+              <span class="naira" id="modalTotalAmount"></span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="https://cdn.jsdelivr.net/alasql/0.5/alasql.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/xlsx/0.17.0/xlsx.full.min.js"></script> -->
+    <script src="scripts/getData.js"></script>
+    <script src="scripts/updateData.js"></script>
+    <script src="scripts/script.js"></script>
+    <!-- <script src="populateDB.js"></script> -->
+  </body>
+</html>

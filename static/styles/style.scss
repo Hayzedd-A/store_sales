@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    display: flex;
+    gap: 1em;
+    font-size: 12px !important;
+    .container {
+        flex: 1;
+        // border-left: 2px solid yellowgreen;
+        > * {   
+            padding: 1em;
+        }
+    }
+    svg {
+        width: 24px;
+    }
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 242, 186);
+    .name_logo {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        svg {
+            scale: 2;
+        }
+    }
+    .links {
+        display: flex;
+        align-items: center;
+        ul {
+            margin: 0;
+            display: flex;
+            list-style: none;
+            gap: 1.5em;
+        }
+    }
+    li {
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+        &::before {
+            content: '';
+            position: absolute;
+            background-color: yellowgreen;
+            bottom: -5px;
+            height: 3px;
+            width: 90%;
+            left: 5%;
+            border-radius: 2px;
+            scale: 0;
+            transform-origin: center;
+            transition: scale linear 0.1s;
+        }
+        
+        &:hover::before {
+            scale: 1.3;
+        }
+        &:active {
+            scale: 0.9;
+        }
+        
+        a {
+            text-decoration: none;
+            color: unset;
+        }
+        
+    }
+}
+
+section.header {
+    border-bottom: 2px solid yellowgreen;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    padding-bottom: 1em;
+    .search {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        border: 1px solid rgb(214, 214, 9);
+        padding: 0.5em 1em;
+        border-radius: 1em;
+        span {
+            display: flex;
+            align-items: end;
+            cursor: pointer;
+        }
+        input {
+            flex: 1;
+            background-color: transparent;
+            border: 0;
+            outline: none;
+            font-size: 1.5em;
+        }
+    }
+    select {
+        height: 2em;
+        border-radius: 5px;
+    }
+}
+.naira::before {
+    content: "₦"; 
+    margin-right: 2px; 
+    color: green;
+}
+section.productList.sales {
+
+    > div {
+        display: flex;
+        gap: 1em;
+        align-items: center;
+        &:nth-child(2n) {
+            background-color: rgb(220, 242, 176);
+        }
+        .icon {
+            width: 3em;
+            height: 3em;
+            img {
+                width: 100%;
+            }
+        }
+        .details {
+            flex: 1;
+            display: grid;
+            // gap: 0.3em;
+            .name {
+                text-transform: capitalize;
+            }
+            .price_availability {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+              
+        }
+        button {
+            height: 70%;
+        }
+        .quantity {
+            display: flex;
+            gap: 0.3em;
+            > * {.naira::before {
+                content: "₦"; 
+                margin-right: 2px; 
+                color: green;
+            }
+                height: 70%;
+            }
+
+            input {
+                font-size: 1.5em;
+                width: 32px;
+                &::-webkit-inner-spin-button,
+                &::-webkit-outer-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+            }
+        }
+        .add {
+            margin-left: 2em;
+
+        }
+    }
+}
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background-color: yellowgreen;
+    &:hover {
+        background-color: rgb(188, 230, 105);
+    }
+    &:active {
+        scale: 0.9;
+    }
+}
+// section.checkingOut {
+    table {
+        width: 100%;
+        tbody {
+            &:before {
+                content: " ";
+                display: block;
+                line-height: 1em;
+                color: transparent;
+            }
+            tr {
+                height: 2em;
+                padding: 1.5em 0;
+                &:hover {
+                    background-color: gainsboro;
+                }
+                &:nth-child(2n) {
+                    background-color: rgb(226, 243, 192);
+                    &:hover {
+                        background-color: rgb(184, 232, 88);
+                    }
+                }
+                #delete {
+                    background-color: rgb(222, 154, 154);
+                    border: 1px solid red;
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+// }
+section.payment {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    gap: 3em;
+    font-size: 2em;
+}
+
+#myModal {
+    .modal-header, .modal-footer {
+        background-color: rgb(224, 247, 179);
+        color: rgb(1, 68, 1);
+        
+    }
+    .modalTotalAmount {
+        text-align: right;
+    }
+    thead {
+        color: green;
+    }
+}
