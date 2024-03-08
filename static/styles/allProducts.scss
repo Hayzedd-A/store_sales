@@ -1,7 +1,6 @@
-img {
-  width: 40px;
+body {
+  grid-template-columns: 1fr;
 }
-
 .template {
   td {
     // width: 100%;
@@ -25,14 +24,27 @@ img {
   place-items: center;
   height: 100vh;
   background-color: rgba(73, 70, 70, 0.3);
-  .container {
+  .promptContainer {
     background-color: white;
+    padding: 1em;
+    display: grid;
+    gap: 1em;
     border-radius: 1em;
     position: relative;
     width: max-content;
     height: max-content;
     text-align: center;
     font-size: large;
+    .title {
+      display: grid;
+      grid-template-columns: 1fr 50px;
+      i {
+        cursor: pointer;
+        svg:hover {
+          fill: red;
+        }
+      }
+    }
   }
   .action {
     display: flex;

@@ -1,12 +1,14 @@
 @charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1em;
   font-size: 12px !important;
-}
-body .container {
-  flex: 1;
 }
 body .container > * {
   padding: 1em;
@@ -16,6 +18,9 @@ body svg {
 }
 
 nav {
+  padding: 1em;
+  height: 4em;
+  grid-column: span 2;
   display: flex;
   justify-content: space-between;
   background-color: rgb(219, 242, 186);
@@ -209,7 +214,8 @@ section.payment {
   font-size: 2em;
 }
 
-#myModal .modal-header, #myModal .modal-footer {
+#myModal .modal-header,
+#myModal .modal-footer {
   background-color: rgb(224, 247, 179);
   color: rgb(1, 68, 1);
 }

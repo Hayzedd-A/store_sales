@@ -1,5 +1,5 @@
-img {
-  width: 40px;
+body {
+  grid-template-columns: 1fr;
 }
 
 .template td span {
@@ -22,8 +22,11 @@ img {
   height: 100vh;
   background-color: rgba(73, 70, 70, 0.3);
 }
-.loadDataPrompt .container {
+.loadDataPrompt .promptContainer {
   background-color: white;
+  padding: 1em;
+  display: grid;
+  gap: 1em;
   border-radius: 1em;
   position: relative;
   width: -moz-max-content;
@@ -32,6 +35,16 @@ img {
   height: max-content;
   text-align: center;
   font-size: large;
+}
+.loadDataPrompt .promptContainer .title {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+}
+.loadDataPrompt .promptContainer .title i {
+  cursor: pointer;
+}
+.loadDataPrompt .promptContainer .title i svg:hover {
+  fill: red;
 }
 .loadDataPrompt .action {
   display: flex;

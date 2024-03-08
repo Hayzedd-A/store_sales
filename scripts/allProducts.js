@@ -36,6 +36,12 @@ function printAllProducts(idName, name, price, quantity) {
   $("tbody").append($product);
 }
 
+async function aCheckIfDatabaseExists(databaseName) {
+  const databases = await indexedDB.databases();
+  return databases.some(function (db) {
+    return db.name === databaseName;
+  });
+}
 function checkIfDatabaseExists(databaseName) {
   return indexedDB.databases().then(function (databases) {
     return databases.some(function (db) {
@@ -112,4 +118,13 @@ $("button#addSample").click(function () {
 
 $("button#addDataItem").click(function () {
   $(".loadDataPrompt").addClass("hidden");
+});
+
+$(".loadDataPrompt i").click(function () {
+  $(".loadDataPrompt").addClass("hidden");
+});
+$(".loadDataPrompt").click(function (e) {
+  if (!$(e.target).closest(".promptContainer").length) {
+    $(".loadDataPrompt").addClass("hidden");
+  }
 });
