@@ -57,17 +57,34 @@
             </tr>
           </thead>
           <tbody>
-            <tr class="template">
+            <!-- <tr class="template">
               <td class="icon"><span></span></td>
               <td class="name"><span></span></td>
               <td class="quantity"><span></span></td>
               <td class="price"><span></span></td>
-            </tr>
+            </tr> -->
           </tbody>
         </table>
       </section>
     </div>
+    <div class="loadDataPrompt hidden">
+      <div class="container">
+        <div class="title">No data in the database</div>
+        <div class="body">
+          You see this because there are no products in your database to
+          display,
+          <br />
+          you need to add products into your store database or load some sample
+          data for practise. You can delete them anytime later.
+        </div>
+        <div class="action">
+          <button id="addSample">Load sample data</button>
+          <button id="addDataItem">Add product to store</button>
+        </div>
+      </div>
+    </div>
     <script src="../jquery.js"></script>
+    <script src="/scripts/uploadData.js"></script>
     <script src="../scripts/allProducts.js"></script>
   </body>
 </html>

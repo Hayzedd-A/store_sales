@@ -13,3 +13,31 @@ img {
 .template td span.icon {
   height: 40px;
 }
+
+.loadDataPrompt {
+  display: grid;
+  position: absolute;
+  width: 100vw;
+  place-items: center;
+  height: 100vh;
+  background-color: rgba(73, 70, 70, 0.3);
+}
+.loadDataPrompt .container {
+  background-color: white;
+  border-radius: 1em;
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  height: -moz-max-content;
+  height: max-content;
+  text-align: center;
+  font-size: large;
+}
+.loadDataPrompt .action {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+}
+.loadDataPrompt.hidden {
+  display: none;
+}
